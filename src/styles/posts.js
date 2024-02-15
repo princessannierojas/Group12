@@ -28,7 +28,7 @@ const div = {
 const grid = {
     margin: "35px auto",
     marginBottom: "45px",
-    marginTop: "14px",
+    marginTop: "1px",
     marginRight: "2%",
     overflow: "auto"
 }
