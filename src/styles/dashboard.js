@@ -18,9 +18,20 @@ const mydiv2 = {
 }
 
 const dashboardChart = {
-    width: "100%",
+    width: "46%",
+    height: "330px",
     maxWidth: "750px",
-    marginBottom: "5px"
+    marginBottom: "5px",
+    marginTop: "40px"
+}
+
+const dashboardChart2 = {
+    width: "46%",
+    height: "350px",
+    maxWidth: "750px",
+    marginBottom: "5px",
+    marginTop: "35px",
+    marginLeft: "3%"
 }
 
 const myCard = {
@@ -68,6 +79,7 @@ export const styles = {
     mydiv : mydiv,
     mydiv2 : mydiv2,
     dashboardChart: dashboardChart,
+    dashboardChart2 : dashboardChart2,
     myCard : myCard,
     myCardContent : myCardContent,
     typography1 : typography1,
