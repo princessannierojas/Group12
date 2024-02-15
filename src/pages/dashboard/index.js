@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import DashboardChart from './chart';
+import DashboardChart2 from './chart2';
 import { styles } from '../../styles/dashboard.js';
 
 
@@ -56,6 +57,9 @@ const ForDashboard = () => {
         <div style={styles.mydiv2}>
           <div style={styles.dashboardChart}>
             <DashboardChart data={[totalUsers, totalPosts, totalComments, totalTODOS]} />
+          </div>
+          <div style={styles.dashboardChart2}>
+            <DashboardChart2/> 
           </div>
         </div>
       </Container>
