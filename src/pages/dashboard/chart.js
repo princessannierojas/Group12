@@ -35,6 +35,13 @@ const DashboardChart = ({ data }) => {
         }]
       },
       options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        layout: {
+          padding: {
+            bottom: 20 
+          }
+        },
         scales: {
           y: {
             beginAtZero: true
